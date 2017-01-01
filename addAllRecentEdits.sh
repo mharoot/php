@@ -1,4 +1,4 @@
-# @task   Place this script in the folder you wish to initialize a github repository in. Run this script one time to initialize a github folder.
+# @task   Place this script in the folder you have initialized a github repository in. Run this script any time to add all recent edits with a commit message if you wish to do so.
 
 # @author Michael Harootoonyan
 
@@ -16,7 +16,7 @@ function addGit() {
     git add .
     case $(isEmpty "$1") in
     "0") 
-        git commit ;; # commit without message
+        git commit -m "message n/a";; # commit without message
     "1") 
         git commit -m "$1" ;; #commit with message
     *) #default case
