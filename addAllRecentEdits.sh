@@ -30,7 +30,7 @@ function addGit() {
 function main() {
    echo "Enter a message if you'd like with your git commit"
    read message 
-   addGit $message
+   addGit "$message" #important to wrap in string because if you type testing addAllRecentEdits.sh script it will drop everything after testing
 }
 
 #run main
