@@ -36,6 +36,7 @@ function main() {
    echo "Enter a message if you'd like with your git commit"
    read commitMessage 
    echo "Enter a branch name if you want to load to a different branch other than master"
+   read branch
    addGit "$commitMessage" "$branch" #important to wrap in string because if you type testing addAllRecentEdits.sh script it will drop everything after testing
 }
 
