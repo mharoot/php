@@ -23,7 +23,7 @@ function addGit() {
         echo "error with commit message" ;; 
     esac
 
-    if [ isEmpty "$2" == "0" ] ; then 
+    if [ $(isEmpty "$2") == "0" ] ; then 
 	git push origin master # empty by default push to origin master
     else
 	git push origin "$2"   # push to branch
