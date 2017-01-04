@@ -11,4 +11,4 @@ Script Tasks:
 addAllRecentEdits.sh - right before adding all recently made changes to github
 		       it removes gitScripts.
 
-init.sh		     - initializes a remote repository
+init.sh		     - initializes a remote repository.
