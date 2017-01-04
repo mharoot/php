@@ -11,7 +11,9 @@ Upload files to github:
 Script Tasks:
 --------------------------------------------------------------------------------
 addAllRecentEdits.sh: 
-	Adds all recently made changes to github except gitScripts.
+--------------------------------------------------------------------------------
+Adds all recently made changes to github except gitScripts.
 
 init.sh:
-	Initializes a remote repository.
+--------------------------------------------------------------------------------
+Initializes a remote repository.
