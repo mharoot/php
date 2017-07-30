@@ -69,16 +69,7 @@ class ConfigRepository extends ArrayObject implements ArrayAccess
      */
     public function remove($key)
     {
-        if ($this->configArr === null)
-            return null;
-        if($this->configArr[$key] === null)
-            return null;
-
-        // if($this->has($key))
-        // {
-            //array_slice($this->configArr,-1,1);
-            unset($this->configArr[$key]);
-        // }
+        unset($this->configArr[$key]);
         return $this;
     }
 
