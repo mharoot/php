@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>ciBlog</title>
+		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost/epsweldingservices/assets/css/style.css">
+    <script src="http://cdn.ckeditor.com/4.5.11/standard/ckeditor.js"></script>
+	</head>
+	<body>
+	<nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://localhost/epsweldingservices/">ciBlog</a>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="http://localhost/epsweldingservices/">Home</a></li>
+            <li><a href="http://localhost/epsweldingservices/about">About</a></li>
+             <li><a href="http://localhost/epsweldingservices/posts">Blog</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://localhost/epsweldingservices/posts/create">Create Post</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container"><h2>Latest Posts</h2>
+	<h3>test create post route for status 200</h3>
+	<div class="row">
+		<div class="col-md-3">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://localhost/epsweldingservices/assets/images/posts/test.jpg">
+		</div>
+		<div class="col-md-9">
+			<small class="post-date">Posted on: 2017-08-02 19:44:27 in <strong>Buisness</strong></small><br>
+		@PostsControllerTest
+
+testing create post functionality
+
+@posts/create		<br><br>
+		<p><a class="btn btn-default" href="http://localhost/epsweldingservices/posts/test-create-post-route-for-status-200">Read More</a></p>
+		</div>
+	</div>
+	<h3>What Is MVC?</h3>
+	<div class="row">
+		<div class="col-md-3">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://localhost/epsweldingservices/assets/images/posts/mvc.jpg">
+		</div>
+		<div class="col-md-9">
+			<small class="post-date">Posted on: 2017-01-22 16:01:42 in <strong>Buisness</strong></small><br>
+		<p><strong>MODEL</strong></p>
+
+<p>The central component of the pattern. It expresses the application&#39;s behavior in terms of the problem domain, independent of the user interface. It directly manages the data, logic and rules of the application.<br />
+<br />
+<strong>VIEW</strong></p>
+
+<p>Any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as&#8230;		<br><br>
+		<p><a class="btn btn-default" href="http://localhost/epsweldingservices/posts/What-Is-MVC">Read More</a></p>
+		</div>
+	</div>
+	<h3>What is a URL Slug?</h3>
+	<div class="row">
+		<div class="col-md-3">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://localhost/epsweldingservices/assets/images/posts/postSlug.jpg">
+		</div>
+		<div class="col-md-9">
+			<small class="post-date">Posted on: 2017-01-20 14:35:55 in <strong>Buisness</strong></small><br>
+		<p><strong>Clean URLs are easier to work with and that&#39;s what URL slugs are for!</strong></p>
+
+<p><br />
+&nbsp; &nbsp;&nbsp;http://localhost/CodeIgniterPHP/posts/edit/<strong>What-is-a-URL-Slug</strong></p>
+
+<p><br />
+There are several potential algorithms for normalising a string to create a URL slug.<br />
+<br />
+<strong>A typical algorithm would be:</strong></p>
+
+<ul>
+	<li>Lowercase the string</li>
+	<li>Remove any special characters and punctuation that might require encoding in the URL</li>
+	<li>Replace&#8230;		<br><br>
+		<p><a class="btn btn-default" href="http://localhost/epsweldingservices/posts/What-is-a-URL-Slug">Read More</a></p>
+		</div>
+	</div>
+		</div>
+		<script>
+                CKEDITOR.replace( 'editor1' );
+            </script>
+	</body>
+</html>
