@@ -6,12 +6,12 @@
 
   <p>
     <?php echo lang('login_identity_label', 'identity');?>
-    <?php echo form_input($identity, 'class="form-control"' , 'style="color:black;"');?>
+    <?php echo form_input($identity,'' ,'class="form-control"' , 'style="color:black;"');?>
   </p>
 
   <p>
     <?php echo lang('login_password_label', 'password');?>
-    <?php echo form_input($password, 'class="form-control"' , 'style="color:black;"');?>
+    <?php echo form_input($password, '', 'class="form-control"' , 'style="color:black;"');?>
   </p>
 
   <p>
