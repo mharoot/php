@@ -1,0 +1,26 @@
+/* Background Gradient for Monochromatic Colors */
+.gradient-azure
+{
+    background-color: #73B9FF;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #73B9FF -webkit-gradient(linear, left top, left bottom, from(#006CD9), to(#73B9FF)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #73B9FF -moz-linear-gradient(top, #006CD9, #73B9FF) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#006CD9, endColorstr=#73B9FF) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#006CD9, endColorstr=#006CD9)" no-repeat;
+}
+
+.gradient-maroon 
+{
+    background-color: #F36D6D;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #F36D6D -webkit-gradient(linear, left top, left bottom, from(#5A0000), to(#F36D6D)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #F36D6D -moz-linear-gradient(top, #5A0000, #F36D6D) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#5A0000, endColorstr=#F36D6D) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#5A0000, endColorstr=#5A0000)" no-repeat;
+}

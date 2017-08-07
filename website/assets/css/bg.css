@@ -1,0 +1,23 @@
+
+.swiper-slide 
+{
+    background-image: url("<?php echo base_url(); ?>assets/images/s2-bg.png");
+    background-repeat: repeat;
+
+}
+
+.swiper-slide img
+{
+    max-width: 100%; height: auto; display:block;
+}
+
+.container{
+    background-image: url("<?php echo base_url(); ?>assets/images/header_bg_rivet.jpg");
+    background-repeat: repeat-x;
+}
+
+#middle-background-image{
+    background-image: url("<?php echo base_url(); ?>assets/images/s1-bgtop.jpg");
+    background-repeat: repeat;
+}
+

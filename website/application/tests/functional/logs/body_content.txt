@@ -1,0 +1,5 @@
+@PostsControllerTest
+
+testing create post functionality
+
+@posts/create

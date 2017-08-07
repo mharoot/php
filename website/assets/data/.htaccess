@@ -1,0 +1,8 @@
+<Files ~ "\.(htaccess|php)$">
+order deny,allow
+deny from all
+###public ip address find this from google not your private one
+allow from 75.83.252.199
+Allow from 127.0.0.1
+Allow from ::1
+</Files>

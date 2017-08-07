@@ -1,0 +1,32 @@
+var inputCounter  = 0;
+var phoneNumberInput = document.getElementById('phoneNumber');
+phoneNumberInput.onkeydown = myFunction;
+
+function myFunction() {
+	var key = event.keyCode || event.charCode;
+    var isNumber = (key > 47 && key < 58) || (key > 95 && key < 106);
+    var isDelete = key == 8 || key == 46; //backspace or delete
+    
+	if (isNumber) inputCounter++;
+    else if (isDelete) {
+    	inputCounter--;
+    	return;
+    } 
+    else myFunctionUtil();
+    
+    if (inputCounter == 4 || inputCounter == 7) {
+      var dashAppend = phoneNumberInput.value+'-';
+      phoneNumberInput.value = dashAppend;
+    }
+    if ( phoneNumberInput.value.length == 12) myFunctionUtil();
+
+
+
+
+    
+}
+
+function myFunctionUtil() {
+  var val = phoneNumberInput.value.slice(0, phoneNumberInput.value.length - 1);
+  phoneNumberInput.value = val;
+}

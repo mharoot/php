@@ -1,0 +1,16 @@
+/*body {
+    margin-top:10%;
+}*/
+
+small.post-date {
+    background:#f4f4f4;
+    padding:4px;
+    margin:3px 0;
+    display:block;
+    color:black;
+    font-weight:700;
+}
+
+#phone_number_top { 
+    position:relative; right:0%; top:15%; padding-top:30px;
+}
