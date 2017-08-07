@@ -1,5 +1,4 @@
 <h2><?= $title ?></h2>
-<h2> <?php print_r($sesh) ?></h2>
 <?php foreach($posts as $post) : ?>
 	<h3><?php echo $post['email']; ?></h3>
 	<div class="row">
