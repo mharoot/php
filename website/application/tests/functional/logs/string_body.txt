@@ -1,44 +1,4 @@
-
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Warning</p>
-<p>Message:  The use statement with non-compound name 'Ion_auth_model' has no effect</p>
-<p>Filename: models/PriceQoutePost_model.php</p>
-<p>Line Number: 2</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\epsweldingservices\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div><html style="background-color:black;">
+<html style="background-color:black;">
 	<head>
     <meta name="author" content="michael harootonyan">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -46,29 +6,29 @@
     <meta name="keywords" content="EPS Welding Services, EPS Welding, steel, metal, aluminum, carbon, carbon fiber, copper, iron, install, installments, installation, fabrication, fabricator, Los Angeles custom welding company, repairs, repair, steel company, welding services, welding service, welding company, welding, welders near Los Angeles California, welding company in Los Angeles, Ca">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://192.168.1.46/epsweldingservices/assets/css/gallery_buttons.css">
+    <link rel="stylesheet" href="http://192.168.1.226/epsweldingservices/assets/css/gallery_buttons.css">
     <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="http://192.168.1.46/epsweldingservices/assets/css/style.css">
+    <link rel="stylesheet" href="http://192.168.1.226/epsweldingservices/assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Swiper JS -->
-    <script src="http://192.168.1.46/epsweldingservices/assets/dist/js/swiper.min.js"></script>
-    <script src="http://192.168.1.46/epsweldingservices/assets/js/cms.js"></script>
+    <script src="http://192.168.1.226/epsweldingservices/assets/dist/js/swiper.min.js"></script>
+    <script src="http://192.168.1.226/epsweldingservices/assets/js/cms.js"></script>
     <title>EPS Welding Services | Custom Welding Services &amp; Fabrication</title>
 	</head>
 	<body>
   <div class="container1" style="width:100%; height:193px; padding:0px; ">
-    <img id="epsLogo" src="http://192.168.1.46/epsweldingservices/assets/images/eps_logo.png"></img>
+    <img id="epsLogo" src="http://192.168.1.226/epsweldingservices/assets/images/eps_logo.png"></img>
     </br>
     <p id ="phone_number_top"> Custom Welding Services &amp; Fabrication in Los Angeles, Ca 818-517-5009<p>
   </div>
   </br>
-        <link rel="stylesheet" href="http://192.168.1.46/epsweldingservices/assets/dist/css/swiper.min.css">
-        <link rel="stylesheet" href="http://192.168.1.46/epsweldingservices/assets/css/slider.css">
+        <link rel="stylesheet" href="http://192.168.1.226/epsweldingservices/assets/dist/css/swiper.min.css">
+        <link rel="stylesheet" href="http://192.168.1.226/epsweldingservices/assets/css/slider.css">
             <nav class="navbar navbar-inverse">
               <div class="container-fluid">
                 <div class="navbar-header">
-                  <a class="navbar-brand" href="http://192.168.1.46/epsweldingservices/">EPS WELDING SERVICES</a>
+                  <a class="navbar-brand" href="http://192.168.1.226/epsweldingservices/">EPS WELDING SERVICES</a>
                 
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                     <span class="icon-bar"></span>
@@ -78,9 +38,9 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                   <ul class="nav navbar-nav">
-                    <li><a class="picture_button" href="http://192.168.1.46/epsweldingservices/">Home</a></li>
-                    <li><a class="picture_button" href="http://192.168.1.46/epsweldingservices/gallery">Gallery</a></li>
-                    <li><a class="picture_button" href="http://192.168.1.46/epsweldingservices/price-qoute">Price Qoute</a></li>
+                    <li><a class="picture_button" href="http://192.168.1.226/epsweldingservices/">Home</a></li>
+                    <li><a class="picture_button" href="http://192.168.1.226/epsweldingservices/gallery">Gallery</a></li>
+                    <li><a class="picture_button" href="http://192.168.1.226/epsweldingservices/price-qoute">Price Qoute</a></li>
                   </ul>
                 </div>
 
@@ -89,22 +49,22 @@
 	<h3>test create post route for status 200</h3>
 	<div class="row">
 		<div class="col-md-3">
-			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.46/epsweldingservices/assets/images/posts/test.jpg">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.226/epsweldingservices/assets/images/posts/test.jpg">
 		</div>
 		<div class="col-md-9">
-			<small class="post-date">Posted on: 2017-08-06 18:24:10 in <strong>Buisness</strong></small><br>
+			<small class="post-date">Posted on: 2017-08-07 04:23:33 in <strong>Buisness</strong></small><br>
 		@PostsControllerTest
 
 testing create post functionality
 
 @posts/create		<br><br>
-		<p><a class="btn btn-default" href="http://192.168.1.46/epsweldingservices/posts/test-create-post-route-for-status-200">Read More</a></p>
+		<p><a class="btn btn-default" href="http://192.168.1.226/epsweldingservices/posts/test-create-post-route-for-status-200">Read More</a></p>
 		</div>
 	</div>
 	<h3>What Is MVC?</h3>
 	<div class="row">
 		<div class="col-md-3">
-			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.46/epsweldingservices/assets/images/posts/mvc.jpg">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.226/epsweldingservices/assets/images/posts/mvc.jpg">
 		</div>
 		<div class="col-md-9">
 			<small class="post-date">Posted on: 2017-01-22 16:01:42 in <strong>Buisness</strong></small><br>
@@ -115,13 +75,13 @@ testing create post functionality
 <strong>VIEW</strong></p>
 
 <p>Any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as&#8230;		<br><br>
-		<p><a class="btn btn-default" href="http://192.168.1.46/epsweldingservices/posts/What-Is-MVC">Read More</a></p>
+		<p><a class="btn btn-default" href="http://192.168.1.226/epsweldingservices/posts/What-Is-MVC">Read More</a></p>
 		</div>
 	</div>
 	<h3>What is a URL Slug?</h3>
 	<div class="row">
 		<div class="col-md-3">
-			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.46/epsweldingservices/assets/images/posts/postSlug.jpg">
+			<img style="width:100%;height:auto;" class="post-thumb" src="http://192.168.1.226/epsweldingservices/assets/images/posts/postSlug.jpg">
 		</div>
 		<div class="col-md-9">
 			<small class="post-date">Posted on: 2017-01-20 14:35:55 in <strong>Buisness</strong></small><br>
@@ -139,7 +99,7 @@ There are several potential algorithms for normalising a string to create a URL 
 	<li>Lowercase the string</li>
 	<li>Remove any special characters and punctuation that might require encoding in the URL</li>
 	<li>Replace&#8230;		<br><br>
-		<p><a class="btn btn-default" href="http://192.168.1.46/epsweldingservices/posts/What-is-a-URL-Slug">Read More</a></p>
+		<p><a class="btn btn-default" href="http://192.168.1.226/epsweldingservices/posts/What-is-a-URL-Slug">Read More</a></p>
 		</div>
 	</div>
 		</div>
@@ -167,7 +127,7 @@ There are several potential algorithms for normalising a string to create a URL 
     
     .swiper-slide 
     {
-        background-image: url("http://192.168.1.46/epsweldingservices/assets/images/s2-bg.png");
+        background-image: url("http://192.168.1.226/epsweldingservices/assets/images/s2-bg.png");
         background-repeat: repeat;
 
     }
@@ -178,28 +138,28 @@ There are several potential algorithms for normalising a string to create a URL 
     }
 
     nav.navbar {
-        /*background-image: url("http://192.168.1.46/epsweldingservices/assets/images/s2-bg.png");
+        /*background-image: url("http://192.168.1.226/epsweldingservices/assets/images/s2-bg.png");
         background-repeat: repeat;*/
         background-color:black;
     }
     .container1{
-        background-image: url("http://192.168.1.46/epsweldingservices/assets/images/header_bg_rivet.jpg");
+        background-image: url("http://192.168.1.226/epsweldingservices/assets/images/header_bg_rivet.jpg");
         background-repeat: repeat-x;
     }
 
     body {
-        background-image: url("http://192.168.1.46/epsweldingservices/assets/images/s2-bg.png");
+        background-image: url("http://192.168.1.226/epsweldingservices/assets/images/s2-bg.png");
         background-repeat: repeat;
         color:white;
     }
 
     html  {
         background-color:black;
-        background-image: url("http://192.168.1.46/epsweldingservices/assets/images/s2-bg.png");
+        background-image: url("http://192.168.1.226/epsweldingservices/assets/images/s2-bg.png");
 
     }
     #middle-background-image{
-        background-image: url("http://192.168.1.46/epsweldingservices/assets/images/s2-bg.png");
+        background-image: url("http://192.168.1.226/epsweldingservices/assets/images/s2-bg.png");
         background-repeat: repeat;
     }
 

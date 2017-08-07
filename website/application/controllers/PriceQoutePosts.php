@@ -27,7 +27,7 @@ class PriceQoutePosts extends CI_Controller {
         $this->form_validation->set_rules('description', 'Description', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required');
         $this->form_validation->set_rules('name', 'Name', 'required');
-        $this->form_validation->set_rules('phone_number', 'Phone Number', 'required');
+        $this->form_validation->set_rules('phone_number', 'Phone Number', 'required|regex_match[/^[0-9]{9}$/]'); //{10} for 10 digits number
 
 		if($this->form_validation->run() === FALSE) {
             $this->load->view('templates/header');
@@ -53,7 +53,8 @@ class PriceQoutePosts extends CI_Controller {
             }
 
             $this->priceQoutePost_model->create_post($blueprint_image);
-            redirect('price-qoute/admin');
+            $_SESSION['about_message'] = "You have successfully submitted your price qoute!  Please allow us 24 hours to contact you back.";
+            redirect('about');
         }
     }
 
