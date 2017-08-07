@@ -27,7 +27,7 @@ class PriceQoutePosts extends CI_Controller {
         $this->form_validation->set_rules('description', 'Description', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required');
         $this->form_validation->set_rules('name', 'Name', 'required');
-        $this->form_validation->set_rules('phone_number', 'Phone Number', 'required|regex_match[/^[0-9]{9}$/]'); //{10} for 10 digits number
+        $this->form_validation->set_rules('phone_number', 'Phone Number', 'required');//|regex_match[/^[0-9]{9}$/]'); //{10} for 10 digits number
 
 		if($this->form_validation->run() === FALSE) {
             $this->load->view('templates/header');
@@ -35,8 +35,10 @@ class PriceQoutePosts extends CI_Controller {
             $this->load->view('templates/footer');
         } else {
             // Upload Image or PDF
-			$config = $this->getFileConfig();
-			$blueprint_image = $_FILES['userfile']['name'];
+            $phone_number = $this->input->post('phone_number');
+            $blueprint_image = $phone_number.$_FILES['userfile']['name'];
+			$config = $this->getFileConfig($blueprint_image);
+	
             $ext = pathinfo($blueprint_image, PATHINFO_EXTENSION);
 
             if ($ext == 'pdf') $config['upload_path'] = './assets/pdfs/';
@@ -106,12 +108,14 @@ class PriceQoutePosts extends CI_Controller {
         if ( !$this->ion_auth->is_admin() ) 
             redirect('price-qoute');
     }
-    private function getFileConfig() {
+    private function getFileConfig ($filename) 
+    {
         $config['upload_path']   = './assets/images/posts/';
         $config['allowed_types'] = 'gif|jpg|png|pdf';
         $config['max_size']      = '10240'; //10mb
         $config['max_width']     = '6000';
         $config['max_height']    = '6000';
+        $config['file_name']     = $filename;
         return $config;
     }
 }
