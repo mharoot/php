@@ -22,10 +22,10 @@ class Model extends Elegant {
 	
 	public function getBook($title)
 	{
-		// we use the previous function to get all the books and then we return the requested one.
-		// in a real life scenario this will be done through a db select command
-		$allBooks = $this->getBookList();
-		return $allBooks[$title];
+		$q = "SELECT * FROM books WHERE title = '".$title."'";
+		$this->query($q);
+		$result = $this->resultset();
+		return $result[0];
 	}
 	
 	

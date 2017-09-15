@@ -16,13 +16,17 @@ class Controller {
 		{
 			// no special book is requested, we'll show a list of all available books
 			$books = $this->model->getBookList();
-			include 'view/booklist.php';
+			include 'view/templates/header.php';
+			include 'view/pages/booklist.php';
+			include 'view/templates/footer.php';
 		}
 		else
 		{
 			// show the requested book
 			$book = $this->model->getBook($_GET['book']);
-			include 'view/viewbook.php';
+			include 'view/templates/header.php';
+			include 'view/pages/viewbook.php';
+			include 'view/templates/footer.php';
 		}
 	}
 }
