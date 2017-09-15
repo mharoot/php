@@ -1,16 +1,33 @@
 <?php
 
-class Book {
-	public $title;
-	public $author;
-	public $description;
+include_once("Elegant/Model.php");
+
+class Book extends Model {
+
+
+
+	public function __construct()  
+	{  
+			parent::__construct();
+			$this->table_name = 'books';
+	}
+
+
+
+	public function getBookList()
+	{
+		return $this->all();
+	}
 	
-	public function __construct($title, $author, $description)  
-    {  
-        $this->title = $title;
-	    $this->author = $author;
-	    $this->description = $description;
-    } 
+	public function getBook($title)
+	{
+		$q = "SELECT * FROM books WHERE title = '".$title."'";
+		$this->query($q);
+		$result = $this->resultset();
+		return $result[0];
+	}
+	
+	
 }
 
 ?>

@@ -1,12 +1,12 @@
 <?php
-include_once("model/Model.php");
+include_once("model/Book.php");
 
-class Controller {
+class Books {
 	public $model;
 	
 	public function __construct()  
     {  
-        $this->model = new Model();
+        $this->model = new Book();
 
     } 
 	

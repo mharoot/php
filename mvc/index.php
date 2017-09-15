@@ -1,7 +1,7 @@
 <?php 
-	include_once("controller/Controller.php");
+	include_once("controller/Books.php");
 
-	$controller = new Controller();
-	$controller->invoke();
+	$books_controller = new Books();
+	$books_controller->invoke();
 
 ?>
