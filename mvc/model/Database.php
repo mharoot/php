@@ -1,7 +1,7 @@
 <?php
  ini_set('display_errors',1);
  error_reporting(E_ALL);
-class DBController {
+class Database {
 	private $host       = 'localhost';
 	private $user       = 'root';
 	private $password   = 'password';

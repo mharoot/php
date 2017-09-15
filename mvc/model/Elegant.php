@@ -1,9 +1,9 @@
 <?php
 
 include_once("model/Book.php");
-include_once("model/DBController.php");
+include_once("model/Database.php");
 
-class Elegant extends DBController {
+class Elegant extends Database {
 
     public $table_name = NULL;
 
