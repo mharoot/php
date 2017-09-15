@@ -21,10 +21,17 @@ class Book extends Model {
 	
 	public function getBook($title)
 	{
-		$q = "SELECT * FROM books WHERE title = '".$title."'";
-		$this->query($q);
-		$result = $this->resultset();
-		return $result[0];
+		// $q = "SELECT * FROM books WHERE title = '".$title."'";
+		// $this->query($q);
+		// $result = $this->resultset();
+		// return $result[0];
+
+        //to
+        return $this->getWhere('title', '=', $title );
+
+
+		//todo-> User::where('votes', '>', 100)->update(array('status' => 2));
+		// chaining events.
 	}
 	
 	

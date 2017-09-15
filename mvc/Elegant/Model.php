@@ -21,6 +21,13 @@ class Model extends Database {
 
     }
 
+    public function getWhere($arg1, $arg2, $arg3 ) {
+        $q = "SELECT * FROM ".$this->table_name." WHERE ".$arg1.$arg2."'".$arg3."'";
+		$this->query($q);
+		$result = $this->resultset();
+		return $result[0];
+    }
+
     private function checkTableExist() {
             $this->query("SHOW TABLES LIKE '".$this->table_name."'");
             $result = $this->execute();
