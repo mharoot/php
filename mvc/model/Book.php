@@ -27,11 +27,7 @@ class Book extends Model {
 		// return $result[0];
 
         //to
-        return $this->getWhere('title', '=', $title );
-
-
-		//todo-> User::where('votes', '>', 100)->update(array('status' => 2));
-		// chaining events.
+        return $this->where('title', '=', $title )->orWhere('id','=',2)->get();
 	}
 	
 	

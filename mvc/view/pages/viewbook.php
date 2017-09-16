@@ -1,7 +1,7 @@
 <?php 
 
-	echo '<b>Title:</b>' . $book['title'] . '<br/>';
-	echo '<b>Author:</b>' . $book['author'] . '<br/>';
-	echo '<b>Description:</b>' . $book['description'] . '<br/>';
+	echo '<b>Title:</b>' . $book[0]['title'] . '<br/>';
+	echo '<b>Author:</b>' . $book[0]['author'] . '<br/>';
+	echo '<b>Description:</b>' . $book[0]['description'] . '<br/>';
 
 ?>
