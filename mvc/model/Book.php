@@ -26,8 +26,25 @@ class Book extends Model {
 		// $result = $this->resultset();
 		// return $result[0];
 
-        //to
-        return $this->where('title', '=', $title )->orWhere('id','=',2)->get();
+        //book has a one to one relationship with genres
+		//where books.genre = genre.id
+
+		/*
+		--working relations--
+		1. 
+		return $this->oneToOne('genres','genre','id')->get(array('title', 'description', 'author', 'genre_name'));
+
+		2.
+		return $this->oneToOne('genres','genre','id')->get();
+		
+		--working where and orWhere--
+		3.
+		return $this->where('title', '=', $title )->orWhere('id','=',2)->get();
+
+		4. 
+		return $this->where('title', '=', $title )->orWhere('id','=',2)->get(array('title', 'description', 'author', 'genre'));
+		*/
+        
 	}
 	
 	
