@@ -1,11 +1,19 @@
---for those of you using MySql in console
+/* 
+-------------------------------------------------------------------------------
+                      MySql Command Line Console
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
---exporting mysql database
---mysqldump -uroot -p -hlocalhost mvc > ~/Desktop/mvc_backup.sql
---Enter password: 
+Exporting an mysql database:
 
---importing mysql database
---mysql -uUSERNAME -pPASSWORD -hHOSTNAME USER_DATABASE < FILENAME.sql
+mysqldump -uroot -p -hlocalhost mvc > ~/Desktop/mvc_backup.sql
+-------------------------------------------------------------------------------
+
+Importing mysql database:
+
+mysql -uUSERNAME -pPASSWORD -hHOSTNAME USER_DATABASE < FILENAME.sql
+-------------------------------------------------------------------------------
+*/
 
 -- MySQL dump 10.13  Distrib 5.7.19, for Linux (x86_64)
 --
