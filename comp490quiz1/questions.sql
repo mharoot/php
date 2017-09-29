@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.4.1deb2ubuntu2
+-- version 4.5.1
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Sep 29, 2017 at 12:32 PM
--- Server version: 5.7.19-0ubuntu0.16.04.1
--- PHP Version: 7.1.9-1+ubuntu16.04.1+deb.sury.org+1
+-- Host: 127.0.0.1
+-- Generation Time: Sep 30, 2017 at 01:02 AM
+-- Server version: 10.1.13-MariaDB
+-- PHP Version: 7.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -61,7 +61,9 @@ INSERT INTO `questions` (`id`, `question`, `answer`) VALUES
 (22, 'A plan-driven approach to software engineering is based around separate development stages with the outputs to be produced at each of these stages planned in advance.', 1),
 (23, 'A agile-driven approach to software engineering is based around separate development stages with the outputs to be produced at each of these stages planned in advance.', 0),
 (24, 'In an agile-driven approach the specification, design, implementation and testing are inter-leaved and the outputs from the development process are decided through a process of negotiation during the software development process.', 1),
-(25, 'In an plan-driven approach the specification, design, implementation and testing are inter-leaved and the outputs from the development process are decided through a process of negotiation during the software development process.\n', 0);
+(25, 'In an plan-driven approach the specification, design, implementation and testing are inter-leaved and the outputs from the development process are decided through a process of negotiation during the software development process.\n', 0),
+(26, 'Extreme Programming (XP) takes an extreme approach to plan driven development.', 0),
+(27, 'Extreme Programming (XP) takes an extreme approach to iterative development.', 1);
 
 --
 -- Indexes for dumped tables
@@ -81,7 +83,7 @@ ALTER TABLE `questions`
 -- AUTO_INCREMENT for table `questions`
 --
 ALTER TABLE `questions`
-  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(9) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
