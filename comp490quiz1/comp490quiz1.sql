@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 01, 2017 at 06:05 PM
+-- Generation Time: Oct 03, 2017 at 12:55 PM
 -- Server version: 5.7.19-0ubuntu0.16.04.1
 -- PHP Version: 7.1.10-1+ubuntu16.04.1+deb.sury.org+1
 
@@ -106,9 +106,9 @@ INSERT INTO `questions` (`id`, `question`, `answer`) VALUES
 (67, 'Interaction-oriented - The motivation for doing the work is the work itself\r\n', 0),
 (68, 'Software engineering is concerned with cost-effective quantity software development.', 0),
 (69, 'Software engineering is concerned with cost-effective quality software development.', 1),
-(70, 'Embedded control systems, military system software, air traffic control software, and traffic monitoring systems are all examples of Customized Products.\r\n', 1),
-(71, 'Embedded control systems, military system software, air traffic control software, and traffic monitoring systems are all examples of Generic Products.', 0),
-(72, 'PC software such as graphics programs, project management tools; CAD software; and software for specific markets such as appointment systems for dentists are all examples of Customized Products.', 0),
+(70, 'Embedded control systems, military system software, air traffic control software, and traffic monitoring systems are all examples of Customized Products.\r\n', 0),
+(71, 'Embedded control systems, military system software, air traffic control software, and traffic monitoring systems are all examples of Generic Products.', 1),
+(72, 'PC software such as graphics programs, project management tools; CAD software; and software for specific markets such as appointment systems for dentists are all examples of Customized Products.', 1),
 (73, 'PC software such as graphics programs, project management tools; CAD software; and software for specific markets such as appointment systems for dentists are all examples of Generic Products.', 1),
 (74, 'Generic products are generally stand-alone systems that are marketed and sold to any customer who wishes to buy them e.g. phones, tablets etc.', 1),
 (75, 'Customized products are generally stand-alone systems that are marketed and sold to any customer who wishes to buy them e.g. phones, tablets etc.', 0),
@@ -139,7 +139,7 @@ INSERT INTO `questions` (`id`, `question`, `answer`) VALUES
 (100, 'Entertainment systems are systems that are primarily for personal use and which are intended to entertain the user.  Games, social networking etc.', 1),
 (101, 'Systems for modeling and simulation are systems that are developed by scientists and engineers to model physical processes or situations, which include many, separate, interacting objects.  Manufacturing, space systems etc.', 1),
 (102, 'Data collection systems are systems that collect data from their environment using a set of sensors and send that data to other systems for processing.  Satellite systems.\r\n', 1),
-(103, 'Data collection systems are systems that are composed of a number of other software systems.  Command and Control systems.', 0),
+(103, 'Data collection systems are systems that are composed of a number of other software systems.', 0),
 (104, 'Systems of systems are systems that are composed of a number of other software systems.  Command and Control systems.', 1),
 (105, 'Systems of systems are systems that collect data from their environment using a set of sensors and send that data to other systems for processing.  Satellite systems.', 0),
 (106, 'A software process model is an abstract representation of a process. It presents a description of a process from some particular perspective.', 1),
@@ -151,16 +151,15 @@ INSERT INTO `questions` (`id`, `question`, `answer`) VALUES
 (112, 'Evolution/Maintenance: is checking that it does what the customer wants;\r\n', 0),
 (113, 'Design and implementation – defining the organization of the system and implementing the system;', 1),
 (114, 'Design and implementation –  defining what the system should do;', 0),
-(115, 'A software process model is an abstract representation of a process. It presents a description of a process from some particular perspective.', 1),
 (116, 'There are no right or wrong software processes.\r\n', 1),
 (117, 'In Plan-driven processes, planning is incremental making it easier to change the process to reflect changing customer requirements. \r\n', 0),
 (118, 'Plan-driven processes are processes where all of the process activities are planned in advance and progress is measured against this plan. ', 1),
 (119, 'In agile processes, planning is incremental making it easier to change the process to reflect changing customer requirements. \r\n', 1),
 (120, 'Agile processes are processes where all of the process activities are planned in advance and progress is measured against this plan.', 0),
 (121, 'In practice, most practical processes include elements of both plan-driven and agile approaches. \r\n', 1),
-(122, 'Reuse-oriented software engineering a system is assembled from existing components. It may only be plan-driven.', 0),
+(122, 'Reuse-oriented software engineering is where a system is assembled from existing components. It may only be plan-driven.', 0),
 (123, 'Reuse-oriented software engineering a system is assembled from existing components. It may only be  agile.\r\n', 0),
-(124, 'Reuse-oriented software engineering a system is assembled from existing components. It may only be plan-driven or agile.\r\n', 1),
+(124, 'Reuse-oriented software engineering a system is assembled from existing components. It may be plan-driven or agile.\r\n', 1),
 (125, 'The main drawback of the agile model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.', 0),
 (126, 'The main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.', 1),
 (127, 'In Incremental development the system structure tends to degrade as new increments are added.  ', 1),
@@ -172,7 +171,7 @@ INSERT INTO `questions` (`id`, `question`, `answer`) VALUES
 (133, 'Database design is where you design the system data structures and how these are to be represented in a database. ', 1),
 (134, 'Architectural design is where you take each system component and design how it will operate. ', 0),
 (135, 'Component design is where you identify the overall structure of the system, the principal components (sometimes called sub-systems or modules), their relationships and how they are distributed.', 0),
-(136, 'show that a system conforms to its specification (meets requirements) and provides the functionality that the  customer needs.', 1),
+(136, 'Validation and Verification (V&V) is intended to show that a system conforms to its specification (meets requirements) and provides the functionality that the  customer needs.', 1),
 (137, 'Development and/or component testing is when Individual components are tested independently and components may be functions or objects or coherent groupings of these entities.', 1),
 (138, 'System testing is when there is a testing of the system as a whole. Testing of emergent properties is particularly important.', 1),
 (139, 'Acceptance testing is testing with customer data to check that the system meets the customer’s needs.\r\n', 1),
