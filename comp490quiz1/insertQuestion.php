@@ -4,17 +4,21 @@
   <title>Comp 490 Quiz 1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php include_once('navbar.php'); ?>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body class="container">
+
     <form method="post" action="insertQuestion.php">
-        Question: <textarea rows="30" cols="80" name="question" id="question"></textarea><br>
+        Question:<br> <textarea rows="30" cols="80" name="question" id="question"></textarea><br><br>
         Answer:<br>
         T <input type="radio" name="answer" value="1"><br>
         F <input type="radio" name="answer" value="0"><br>
-        <input type="submit">
+        <input class= "btn btn-success" type="submit">
     </form>
 
 <?php
